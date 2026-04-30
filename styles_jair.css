@@ -1,0 +1,33 @@
+body{
+    margin:0; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+} /*Comentario*/
+.container{
+    padding: 20px;
+}
+.header_title{
+    color:grey;
+}
+.header2_title{
+   color: pink; 
+}
+h2, p{
+    margin-bottom: 10px;
+}
+.card{
+    border: solid 5px orange; /*Borde*/
+    padding: 10px; /*Espacio interno*/
+    margin: 10px 0; /*Espacio externo*/
+    width: 400px;
+}
+.card--highligth{
+    background-color: beige;
+}
+header{
+    text-align: center; 
+}
+.main{
+    display: flex; /*coloca los elementos en fila*/
+    gap: 10px; /*Espacio entre elementos*/
+}
