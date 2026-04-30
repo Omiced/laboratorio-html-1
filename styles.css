@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+.header_title{
+    color: cadetblue;
+}
+
+.card_title{
+    color: cadetblue;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.right {
+    float: right;
+    margin: 10px;
+}
+
+.header_title{
+    position: absolute;
+    right: 0;
+}
