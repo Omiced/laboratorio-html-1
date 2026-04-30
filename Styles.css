@@ -1,0 +1,46 @@
+.receta{
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 600px) 1fr;
+    min-height: 100vh;
+    width: 100%;
+}
+.receta::before,
+.receta::after{
+
+    content: "";
+        background-image: url('fondolatte.png');
+        background-size: 150px;
+        background-repeat: repeat;
+}
+.receta::before{
+    grid-column: 1;
+}
+.receta::after{
+    grid-column: 3;
+}
+.container img.latte{
+    width: 100%;       
+    height: auto;      
+    display: block;    
+    object-fit: contain;
+}
+
+
+.container{
+    grid-column: 2;
+    background-color: rgb(53, 25, 25);
+    padding: 40%;
+    justify-self: center; 
+    width: 100%;
+    color:bisque; 
+    padding: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    
