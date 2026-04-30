@@ -1,0 +1,92 @@
+/*todo:Selectores*/
+/**/
+
+/*Selector de etiqueta*/
+body{
+margin: 0; /*Elimina el espacio por defecto que debe haber*/
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Selector de clases*/
+.container{
+    padding: 20px; /*espacio interno*/
+}
+
+
+/*selector por ID (ejemplo, no usado en el HTML)*/
+#ejemplo{
+    color: blueviolet;
+}
+
+/*Selector descendente*/
+.header_title{
+    color: rgb(117, 6, 221);
+} /*Aplica para el h1 dentro del header*/
+
+
+/*Selector multiple*/
+h2, p{
+    margin-bottom: 10px;
+}
+
+/*Todo: Modelo de Cajas*/
+.card{
+    border: solid 2px rgb(0, 0, 0); /*Borde*/
+    padding: 15px; /*Espacio interno*/
+    margin: 10px 0; /*Espacio externo*/
+    width: auto; /*Ancho*/
+}
+
+/*todo: BEM*/
+/*Bloque: Card*/
+/*Elemento: card_litle*/
+/*Modificador: card--highlight*/
+
+.card_title{
+font-size: 18px;
+
+}
+
+.card--highlight{
+background-color: rgb(150, 229, 231);
+}
+
+/*todo: Propiedades*/
+/*Position*/
+.header{
+    position: relative; /* Pocision relativa*/
+}
+
+.header_title{
+    position: absolute; /*Posivion absoluta,
+    tiene que llevar el top y right en 0 para desplazar a la derecha el titulo*/
+    top: 0;
+    right: 0;
+}
+
+/*Todo: Display*/
+.main{
+    display: flex; /* coloca los elementos en fila*/
+    gap: 10px; /*Espacio entre elementos*/
+}
+
+/*todo: GRID*/
+.footer{
+    display: grid; /*Activa el grid*/
+    grid-template-columns: 1fr 1fr; /*Columnas iguales*/
+    background-color: rgb(214, 201, 13);
+}
+
+/*Un extra a todo*/
+header{
+    background-color: rgb(252, 226, 82);
+    padding: 50px;
+}
+
+.img1{
+    padding: 10px;
+}
+
+.img2{
+    padding: 5px;
+}
