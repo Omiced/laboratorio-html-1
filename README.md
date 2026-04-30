@@ -23,4 +23,6 @@ Texto con el proceso para realizar el platillo
 
 Recuerda subir tus cambios a github, usando git push
 
-## No es necesario que crees una rama en esta ocasión trabaja sobre la rama principal de tu fork. 
+## No es necesario que crees una rama en esta ocasión trabaja sobre la rama principal de tu fork.
+
+Se deja comentario en archivo READ 
