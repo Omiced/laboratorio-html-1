@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9dabe;
+    color: #2c2c2c;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Estilos para los encabezados */
+h1 {
+    font-size: 2.5rem;
+    color: #b85c1a;              
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f0d5b0;
+    display: inline-block;        
+    padding-bottom: 5px;   
+}
+h2 {
+    font-size: 1.8rem;
+    color: #a0522d;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+/* Estilos para la imágene */
+img {
+    display: block;
+    margin: 1.5rem 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+/* Listas y más */
+ul, ol {
+    margin-left: 1.8rem;
+    padding-bottom: 1.5rem;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+.tip {
+    background-color: #fff5e8;
+    border-left: 6px solid #b85c1a;
+    padding: 1.2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    font-style: italic;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tip strong {
+    color: #b85c1a;
+    font-style: normal;
+}
