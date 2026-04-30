@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.titulo_principal{
+    color: olivedrab;
+    
+}
+
+.lavanda_img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    max-width: 100%;
+}
+.tequila_img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    max-width: 100%;
+}
