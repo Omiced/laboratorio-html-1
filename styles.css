@@ -1,12 +1,13 @@
 body{
     margin:0; 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
 }
 .container{
     padding: 20px;
 }
 .header_title{
-    color:beige;
+    color:grey;
 }
 .header2_title{
    color: pink; 
@@ -16,10 +17,17 @@ h2, p{
 }
 .card{
     border: solid 5px orange; /*Borde*/
-    padding: 15px; /*Espacio interno*/
+    padding: 10px; /*Espacio interno*/
     margin: 10px 0; /*Espacio externo*/
-    width: 200px;
+    width: 400px;
 }
 .card--highligth{
     background-color: beige;
+}
+header{
+    text-align: center; 
+}
+.main{
+    display: flex; /*coloca los elementos en fila*/
+    gap: 10px; /*Espacio entre elementos*/
 }
