@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fefcea, #f1da36);
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #d62828;
+    color: white;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Imagen */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.food-img {
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.food-img:hover {
+    transform: scale(1.05);
+}
+
+/* Tabla */
+.table {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.table th {
+    padding: 10px;
+}
+
+.table td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* Listas */
+.list li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #003049;
+    color: white;
+}
