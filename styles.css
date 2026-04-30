@@ -1,0 +1,57 @@
+body {
+    background-color: plum; 
+}
+
+h1 {
+    text-align: center; 
+    color: purple;     
+    font-weight: bold;   
+    font-family: Arial, sans-serif;
+}
+
+img {
+    display: block;    
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%;        
+}
+
+table {
+    width: 80%;           
+    margin: 20px auto;    
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid purple; 
+    padding: 12px;          
+    text-align: center;       
+}
+
+th {
+    background-color: purple 
+                  
+}
+
+tr:nth-child(even) {
+    background-color: pink; 
+}
+
+.contenedor-central {
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;
+    font-family: Arial, sans-serif;    
+    
+    
+    gap: 15px;              
+    margin: 20px auto;      
+    text-align: center;  
+    text-align: justify;    
+}
+
+.contenedor-central img {
+    max-width: 100%;       
+    height: auto;          
+}
