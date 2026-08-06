@@ -24,3 +24,5 @@ Texto con el proceso para realizar el platillo
 Recuerda subir tus cambios a github, usando git push
 
 ## No es necesario que crees una rama en esta ocasión trabaja sobre la rama principal de tu fork. 
+
+Se modifico en codigo en HTML (Se agregaron clases) para poder añadir el CSS y poder cambiar el diseño. Tambien se creo el archivo styles.css donde se realizaron los cambios para el diseño
